@@ -3,6 +3,7 @@ from django.db import transaction
 from django.db.models import QuerySet
 from datetime import datetime
 
+
 @transaction.atomic
 def create_order(
         tickets: list[dict[str, int]],

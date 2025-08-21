@@ -1,6 +1,7 @@
 from django.contrib.auth import get_user_model
 import settings
 
+
 def create_user(
         username: str,
         password: str,
